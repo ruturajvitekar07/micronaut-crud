@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: employeeManagementSystem
+  sever:
+    port:9091
+netty:
+  default:
+    allocator:
+      max-order: 3
+aerospike:
+  host: 127.0.0.1
+  port: 3000
+  namespace: test
